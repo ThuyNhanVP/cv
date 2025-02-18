@@ -4,36 +4,37 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     background-color: #f5f5f5;
     min-height: 100vh;
 }
 
-.color{
+.color {
     padding-right: 10px;
-    color:#adc6de ;
+    color: #adc6de;
 }
 
 .All {
     flex-direction: row;
     display: flex;
     align-items: flex-start;
-    width: 80%;
+    width: 80%; /* Giảm từ 80% xuống 70% để hiển thị gọn hơn */
+    max-width: 1000px; /* Định giới hạn chiều rộng tối đa */
     height: auto;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .Anh {
-    width: 150px;
+    width: 120px; /* Giảm kích thước ảnh để gọn hơn */
     height: auto;
     border-radius: 50%;
 }
 
 .left {
-    width: 35%;
+    width: 30%; /* Giảm từ 35% xuống 30% để cân đối */
     background-color: #183a5c;
     color: #ffffff;
-    padding: 50px 10px 500px 40px;
+    padding: 30px 15px 90px 20px; /* Giảm padding để tránh chiếm quá nhiều không gian */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,13 +43,14 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between; /* Căn trái và phải */
+    justify-content: space-between;
     width: 100%;
 }
 
 .h4text {
     margin-top: 10px;
     margin-bottom: 5px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -63,17 +65,26 @@ body {
     padding: 20px;
     border-radius: 5px;
 }
-.mid_right{
-    margin-top: 65px;
+
+.mid_right {
+    margin-top: 30px; /* Giảm margin để tránh dàn trải quá nhiều */
 }
 
-.h1text{
-    margin-top: 65px;
-    font-size: 28px;
+.h1text {
+    margin-top: 40px;
+    font-size: 22px; /* Giảm kích thước tiêu đề để đỡ to quá */
     font-weight: bold;
 }
-.h2text{
-    font-size: 18px;
+
+.h2text {
+    font-size: 13px; /* Giảm nhẹ để đồng nhất với nội dung */
     font-weight: 600;
     color: #374151;
+}
+
+p {
+    font-size: 12px; /* Giảm nhẹ để đồng nhất với nội dung */
+}
+ul {
+    font-size: 12px; /* Kích thước chữ cho danh sách */
 }
