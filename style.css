@@ -31,10 +31,10 @@ body {
 }
 
 .left {
-    width: 30%; /* Giảm từ 35% xuống 30% để cân đối */
+    width: 35%; /* Giảm từ 35% xuống 30% để cân đối */
     background-color: #183a5c;
     color: #ffffff;
-    padding: 30px 15px 90px 20px; /* Giảm padding để tránh chiếm quá nhiều không gian */
+    padding: 30px 15px 250px 20px; /* Giảm padding để tránh chiếm quá nhiều không gian */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +59,7 @@ body {
 }
 
 .top_right {
-    width: 70%;
+    width: 65%;
     color: #333333;
     background-color: #F9FAFB;
     padding: 20px;
@@ -87,4 +87,7 @@ p {
 }
 ul {
     font-size: 12px; /* Kích thước chữ cho danh sách */
+    padding-left: 25px;
+    padding-right: auto;
+    text-align:start;
 }
